@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    height: 100%;
+    text-align: center;
+    background-color: #f9f1f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: burlywood; */
+}
+
+.btn{
+    height:150px;
+    width: 150px;
+    border: 4px solid black;
+    border-radius: 35px;
+    margin-left: 5px;
+}
+
+.id{
+    margin-top: 10px;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: yellowgreen;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.flash{
+    background-color: white;
+}
+
+.user{
+    background-color: darkgray;
+}
+
+.gameOver{
+    background-color: crimson;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+  
+h3{
+    font-family: "Satisfy", cursive;
+    font-weight: 100;
+    font-style:normal;
+    font-size: 2rem;
+}
+  
+.btn-highScore{
+    width: 8%;
+    border: 2px solid black;
+    border-radius: 0.6rem;
+    background-color:whitesmoke;
+    padding: 0.6%;
+    margin-bottom: 0.6%;
+    font-size: larger;
+    font-family: "Pacifico", cursive;
+}
+
+.btn-container{
+    margin-top: 2%;
+}
